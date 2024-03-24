@@ -1,4 +1,4 @@
-﻿using Covert.Dragon.Api.Domain.Catalog;
+﻿using Covert.Dragon.Domain.Catalog;
 using Microsoft.EntityFrameworkCore; 
 
 namespace Covert.Dragon.Data 
@@ -9,5 +9,11 @@ namespace Covert.Dragon.Data
            : base( options) 
         {}
         public DbSet<Item> Items { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            DbInitializer.Initialze(builder);
+        }
     }
 }
