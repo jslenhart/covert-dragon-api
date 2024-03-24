@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Covert.Dragon.Domain.Catalog;
+using Covert.Dragon.Data;
 
 
 namespace Covert.Dragon.Api.Controllers
