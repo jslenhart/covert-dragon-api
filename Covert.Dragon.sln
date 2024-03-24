@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covert.Dragon.Domain", "Covert.Dragon.Domain\Covert.Dragon.Domain.csproj", "{4D33ACF5-FDB0-4E39-926D-2A20597C5CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covert.Dragon.Api", "Covert.Dragon.Api\Covert.Dragon.Api.csproj", "{209577AE-E518-495B-B059-82232D09B355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D33ACF5-FDB0-4E39-926D-2A20597C5CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D33ACF5-FDB0-4E39-926D-2A20597C5CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D33ACF5-FDB0-4E39-926D-2A20597C5CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D33ACF5-FDB0-4E39-926D-2A20597C5CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209577AE-E518-495B-B059-82232D09B355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209577AE-E518-495B-B059-82232D09B355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209577AE-E518-495B-B059-82232D09B355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209577AE-E518-495B-B059-82232D09B355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
